@@ -1,0 +1,39 @@
+.example {
+	padding: 50px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button {
+	cursor: pointer;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	padding: 0 20px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	background: rgb(31, 80, 170);
+}
+.btn:hover {
+	background: rgb(19, 60, 136);
+}
+.user {
+	margin-top: 23px;
+	display: flex;
+	align-items: center;
+}
+.user button {
+	margin-left: 10px;
+	background: rgb(37, 156, 101);
+}
+.user button:hover {
+	background: rgb(22, 126, 77);
+}
+.user .info {
+	width: 120px;
+}
+.age-sum {
+	margin-top: 20px;
+	font-size: 20px;
+}

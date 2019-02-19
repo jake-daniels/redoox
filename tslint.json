@@ -1,0 +1,43 @@
+{
+	"defaultSeverity": "error",
+	"extends": ["tslint:recommended", "tslint-react"],
+	"linterOptions": {
+		"include": ["**/*.ts", "**/*.tsx"]
+	},
+	"jsRules": {},
+	"rules": {
+		"indent": [true, "tabs"],
+		"interface-name": true,
+		"interface-over-type-literal": false,
+		"jsx-no-lambda": false,
+		"jsx-no-multiline-js": false,
+		"jsx-space-before-trailing-slash": true,
+		"max-classes-per-file": false,
+		"member-ordering": false,
+		"no-consecutive-blank-lines": [true, 2],
+		"no-console": [true, "warning"],
+		"no-empty-interface": false,
+		"no-namespace": false,
+		"no-restricted-globals": false,
+		"no-shadowed-variable": false,
+		"object-literal-key-quotes": [true, "as-needed"],
+		"object-literal-sort-keys": false,
+		"ordered-imports": false,
+		"quotemark": false,
+		"semicolon": false,
+		"trailing-comma": [
+			true,
+			{
+				"multiline": {
+					"arrays": "always",
+					"objects": "always",
+					"functions": "always",
+					"imports": "always",
+					"exports": "always",
+					"typeLiterals": "ignore"
+				}
+			}
+		]
+	},
+	"rulesDirectory": []
+}

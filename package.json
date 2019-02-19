@@ -1,0 +1,34 @@
+{
+	"name": "redoox",
+	"version": "0.1.0",
+	"description": "Redux state management pattern using React Hooks.",
+	"author": "jake-daniels",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"redoox",
+		"example"
+	],
+	"scripts": {
+		"clear": "rm -rf ./node_modules **/node_modules",
+		"build": "yarn workspace redoox run build",
+		"start": "yarn workspace @redoox/example run start"
+	},
+	"devDependencies": {
+		"@types/node": "11.9.4",
+		"@types/react": "16.8.3",
+		"@types/react-dom": "16.8.1",
+		"@types/redux-actions": "^2.3.2",
+		"immer": "^2.0.0",
+		"prettier": "1.16.3",
+		"react": "^16.8.2",
+		"react-dom": "^16.8.2",
+		"react-scripts": "2.1.5",
+		"redux": "^4.0.1",
+		"redux-actions": "^2.6.4",
+		"reselect": "^4.0.0",
+		"tslint": "^5.12.1",
+		"tslint-react": "^3.6.0",
+		"typescript": "3.3.3"
+	}
+}
