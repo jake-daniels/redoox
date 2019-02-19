@@ -1,6 +1,6 @@
 {
 	"name": "redoox",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Redux state management pattern using React Hooks.",
 	"author": "jake-daniels",
 	"license": "MIT",
