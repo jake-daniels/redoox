@@ -1,9 +1,12 @@
 {
 	"name": "redoox",
-	"version": "0.1.1",
+	"version": "0.1.6",
 	"description": "Redux state management pattern using React Hooks.",
 	"author": "jake-daniels",
 	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/jake-daniels/redoox"
+	},
 	"private": false,
 	"main": "build/index.js",
 	"peerDependencies": {
